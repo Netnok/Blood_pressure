@@ -36,17 +36,7 @@ python3.10 -m venv env
 source env/bin/activate
 ```
 
-### 3. RetinaFace 설치
-
-```bash
-git clone https://github.com/serengil/retinaface.git
-cd retinaface
-pip install -r requirements.txt
-pip install .
-cd ..
-```
-
-### 4. 프로젝트 패키지 설치
+### 3. 프로젝트 패키지 설치
 
 ```bash
 pip install --upgrade pip
@@ -81,24 +71,3 @@ python main.py /path/to/your/video.mp4
 - 사전 학습된 PyTorch `.pth` 파일 필요
 
 ---
-
-## 📦 requirements.txt 예시
-
-```txt
-torch>=1.10.0
-torchvision>=0.11.0
-numpy>=1.14.0
-gdown>=3.10.1
-Pillow>=5.2.0
-opencv-python>=3.4.4
-tqdm
-```
-
-> `tensorflow`, `keras`는 `retinaface/requirements.txt`에 포함됨
-
----
-
-## ✍️ 작성자
-
-- Maintainer: 사용자님
-- License: MIT (또는 자유롭게 설정 가능)
